@@ -12,15 +12,17 @@ const Login = () => {
       <input
         type="text"
         className="h-10 rounded-xl w-60 bg-gray-300 text-center"
-        placeholder="User Name"
+        placeholder="User Name" 
+        id="uName"
       />
       <input
         type="password"
         className="h-10 mt-3 w-60 rounded-xl bg-gray-300 text-center"
         placeholder="Password"
+        id="uPassword"
       />
        <div>
-        <button className='bg-blue-700 text-lg text-white w-28 mt-7 rounded-full h-7'onClick={() => signIn()} > Sign in</button>
+        <button className='bg-blue-700 text-lg text-white w-28 mt-7 rounded-full h-7'onClick={()=>{}} > Sign in</button>
         <button className='bg-blue-700 text-lg text-white ml-3 w-28 mt-7 rounded-full h-7' onClick={() => signIn('google')}>Google</button>
         </div>
         <Link className='bg-blue-700 text-lg text-center text-white ml-3 w-28 mt-7 rounded-full h-7' href='/sign-up'>Sign Up</Link>
@@ -30,3 +32,4 @@ const Login = () => {
 }
 
 export default Login 
+

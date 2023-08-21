@@ -12,3 +12,4 @@ export default NextAuth({
   ],
   // Add custom configurations and callbacks if needed
 })
+ 

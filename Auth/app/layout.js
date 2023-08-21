@@ -13,7 +13,7 @@ export const metadata = {
 };
 
 export default function RootLayout() {
-const [ che, setche]=useState(true);
+const [ che, setche]=useState(false);
   return (
 che ? <Login/> :<SignUp/>
   );
