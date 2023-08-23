@@ -3,8 +3,8 @@
 
 import { useState } from 'react';
 import './globals.css';
-import Login from './pages/login';
-import SignUp from './pages/sign-up';
+import Login from '../pages/login';
+import SignUp from '../pages/sign-up';
 
 
 export const metadata = {
